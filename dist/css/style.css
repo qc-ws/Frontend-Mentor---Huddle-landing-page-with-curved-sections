@@ -184,7 +184,7 @@
 
 .footer-top__bg {
   min-height: 15rem;
-  background-image: url(/media/bg/bg-footer-top-mobile.svg);
+  background-image: url(../media/bg/bg-footer-top-mobile.svg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -408,7 +408,7 @@
   }
   .footer-top__bg {
     min-height: 15rem;
-    background-image: url(/media/bg/bg-footer-top-desktop.svg);
+    background-image: url(../media/bg/bg-footer-top-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
   }
