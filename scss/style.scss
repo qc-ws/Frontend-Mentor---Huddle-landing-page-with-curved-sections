@@ -1,0 +1,27 @@
+@import "variables", "buttons", "nav", "home", "footer", "responsive";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  color: $very-dark-cyan;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  line-height: 1.6;
+}

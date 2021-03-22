@@ -1,0 +1,57 @@
+.try__btn {
+  background-color: transparent;
+  border: 1px solid $light-pink;
+  border-radius: 2rem;
+  color: $light-pink;
+  cursor: pointer;
+  padding: 0.6rem 1.6rem;
+  box-shadow: 0px 0px 5px 0px lighten($light-pink, 15);
+
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+}
+
+.start__btn {
+  background-color: $pink;
+  border: none;
+  border-radius: 2rem;
+  color: $very-pale-blue;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 1.1rem 3.5rem;
+  box-shadow: 0px 5px 10px 0px lighten(grey, 30);
+
+  &:hover {
+    background-color: lighten($pink, 15);
+  }
+
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+}
+
+.subscribe__btn {
+  border: none;
+  border-radius: 5px;
+  background-color: $pink;
+  color: $very-pale-blue;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.9rem 3rem;
+
+  &:hover {
+    background-color: lighten($pink, 15);
+  }
+
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+}

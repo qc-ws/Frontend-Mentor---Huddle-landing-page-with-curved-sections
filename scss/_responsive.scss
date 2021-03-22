@@ -1,0 +1,108 @@
+@media screen and (min-width: 1200px) {
+  .nav__container {
+    #logo {
+      width: 12rem;
+    }
+  }
+
+  .hero__container {
+    .hero__statistic {
+      display: flex;
+    }
+  }
+
+  .grow__container {
+    display: flex;
+    flex-direction: row;
+
+    .grow__intro {
+      width: 50vw;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-right: 6rem;
+    }
+
+    img {
+      width: 40vw;
+      margin: 0;
+    }
+  }
+
+  .conversations__container {
+    display: flex;
+    flex-direction: row;
+
+    .conversations__intro {
+      width: 50vw;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 6rem;
+    }
+
+    img {
+      width: 40vw;
+      margin: 0;
+    }
+  }
+
+  .users__container {
+    display: flex;
+    flex-direction: row;
+
+    .users__intro {
+      width: 50vw;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-right: 6rem;
+    }
+
+    img {
+      width: 40vw;
+      margin: 0;
+    }
+  }
+
+  .footer-top__bg {
+    min-height: 15rem;
+    background-image: url(/media/bg/bg-footer-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .footer__container {
+    display: flex;
+    flex-direction: row;
+
+    .contacts {
+      width: 25vw;
+      margin: 5rem auto;
+    }
+
+    .newsletter {
+      width: 45vw;
+      margin: 5rem auto;
+
+      p {
+        padding-right: 10rem;
+      }
+
+      .subscribe {
+        display: flex;
+
+        input {
+          margin: 0;
+        }
+
+        button {
+          margin-left: 2.5rem;
+        }
+      }
+    }
+  }
+}

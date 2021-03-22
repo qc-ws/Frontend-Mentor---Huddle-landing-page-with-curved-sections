@@ -1,0 +1,102 @@
+.hero__container {
+  width: 80%;
+  margin: 5rem auto;
+  text-align: center;
+
+  .hero__intro {
+    p {
+      max-width: 450px;
+      margin: 1.5rem auto 3rem auto;
+    }
+  }
+
+  .screen__mockups {
+    width: 100%;
+    margin: 7rem auto;
+  }
+
+  .hero__statistic {
+    .stat {
+      width: 12rem;
+      margin: 0rem auto 5rem auto;
+
+      img {
+        width: 2rem;
+        display: flex;
+      }
+
+      h3 {
+        font-size: 4em;
+      }
+
+      p {
+        color: darken(darkgray, 10);
+      }
+    }
+  }
+}
+
+.grow__container {
+  width: 80%;
+  margin: 10rem auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+
+  .grow__intro {
+    h2 {
+      margin-bottom: 1rem;
+    }
+  }
+
+  img {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+}
+
+.conversations__container {
+  width: 80%;
+  margin: 10rem auto;
+  text-align: center;
+
+  .conversations__intro {
+    h2 {
+      margin-bottom: 1rem;
+    }
+  }
+
+  img {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+}
+
+.users__container {
+  width: 80%;
+  margin: 10rem auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+
+  .users__intro {
+    h2 {
+      margin-bottom: 1rem;
+    }
+  }
+
+  img {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+}
+
+.build-community__container {
+  width: 80%;
+  margin: 5rem auto;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 2rem;
+  }
+}
